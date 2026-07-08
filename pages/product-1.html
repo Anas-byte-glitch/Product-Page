@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ساعة Ultra T900 الذكية - الشريك المثالي يومياً بخصم 40% وتوصيل لـ 58 ولاية جزائرية. اطلبها الآن!">
+  <title>ساعة ذكية Ultra T900 | عرض خاص في الجزائر</title>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Core Stylesheet -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- Product Landing Page Specific Configurations -->
+  <script>
+    window.productConfig = {
+      id: "product-1",
+      name: "ساعة ذكية Ultra T900 Smart Watch",
+      price: 3400, // in DZD (دينار جزائري)
+      oldPrice: 5800, // in DZD
+      badge: "تخفيض 40% + توصيل سريع",
+      whatsappNumber: "213550123456", // Configured WhatsApp number for Product 1
+      colors: ["أسود فاخر (Black)", "برتقالي رياضي (Orange)", "فضي معدني (Silver)"],
+      sizes: ["45mm", "49mm"],
+      images: [
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&auto=format&fit=crop&q=80"
+      ],
+      description: `
+        <h3>لماذا تختار ساعة Ultra T900 الذكية؟</h3>
+        <p>استمتع بتجربة الجيل الجديد من الساعات الذكية بتصميم فخم وميزات رياضية وصحية متكاملة تناسب نمط حياتك اليومي.</p>
+        
+        <h3>المميزات الرئيسية:</h3>
+        <ul>
+          <li><strong>شاشة IPS كاملة:</strong> شاشة تعمل باللمس عالية الوضوح مع ألوان زاهية وواجهات متعددة وقابلة للتخصيص.</li>
+          <li><strong>إجراء وتلقي المكالمات:</strong> ميكروفون ومكبر صوت مدمجان لإجراء المكالمات مباشرة عبر البلوتوث واستقبال جميع الإشعارات.</li>
+          <li><strong>مراقبة الصحة والرياضة:</strong> قياس نبضات القلب، نسبة الأكسجين في الدم، ضغط الدم، وتتبع عدد الخطوات والأنشطة الرياضية.</li>
+          <li><strong>مقاومة للماء والخدوش:</strong> حماية متكاملة وهيكل متين من الألمنيوم يتحمل الاستخدام الشاق.</li>
+          <li><strong>بطارية تدوم طويلاً:</strong> تدعم الشحن اللاسلكي السريع وتدوم حتى 5 أيام من الاستخدام المعتدل.</li>
+        </ul>
+        <p style="margin-top: 15px; font-weight: 700; color: #00b894;">🔥 هذا العرض متوفر فقط لفترة محدودة! سارع بالطلب الآن قبل نفاد الكمية.</p>
+      `,
+      features: [
+        { icon: "delivery", text: "توصيل سريع لـ 58 ولاية" },
+        { icon: "cod", text: "الدفع عند الاستلام" },
+        { icon: "warranty", text: "ضمان لمدة 30 يوم" }
+      ]
+    };
+  </script>
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-container">
+        <div class="logo-icon"><i class="fas fa-shopping-bag"></i></div>
+        <span class="logo-text">سوق برو</span>
+      </div>
+      <div class="trust-badge-header">
+        <i class="fas fa-shield-alt"></i> متجر موثوق
+      </div>
+    </header>
+
+    <!-- Ticker Bar -->
+    <div class="ticker-bar">
+      <i class="fas fa-fire"></i>
+      تخفيضات حصرية لفترة محدودة! الدفع عند الاستلام متوفر لـ <span>58 ولاية</span>
+    </div>
+
+    <!-- Product Media Gallery -->
+    <section class="product-media">
+      <div class="main-image-wrapper">
+        <img id="gallery-main" src="" alt="ساعة Ultra T900 الذكية">
+      </div>
+      <div id="gallery-thumbnails" class="gallery-thumbnails">
+        <!-- JS Hydrated Thumbnails -->
+      </div>
+    </section>
+
+    <!-- Product Info Section -->
+    <section class="product-info-section">
+      <div style="margin-bottom: 10px;">
+        <span id="badge-discount" class="badge-discount"></span>
+      </div>
+      
+      <h1 id="product-title" class="product-title">تحميل اسم المنتج...</h1>
+      
+      <div class="product-pricing">
+        <span id="price-current" class="price-current">0.00 <span class="price-currency">دج</span></span>
+        <span id="price-old" class="price-old">0.00 دج</span>
+      </div>
+
+      <!-- Color Options Selectors -->
+      <div id="color-section" class="option-group">
+        <span class="option-label">اختر اللون:</span>
+        <div id="color-container" class="options-selector-flex">
+          <!-- JS Hydrated Colors -->
+        </div>
+      </div>
+
+      <!-- Size Options Selectors -->
+      <div id="size-section" class="option-group">
+        <span class="option-label">اختر المقاس:</span>
+        <div id="size-container" class="options-selector-flex">
+          <!-- JS Hydrated Sizes -->
+        </div>
+      </div>
+
+      <!-- Core Trust badges -->
+      <div id="trust-badges" class="trust-badges-grid">
+        <!-- JS Hydrated Trust Badges -->
+      </div>
+    </section>
+
+    <!-- Description Section -->
+    <section class="product-description-section">
+      <h2 class="section-title"><i class="fas fa-info-circle"></i> تفاصيل المنتج</h2>
+      <div id="description-content" class="description-content">
+        <!-- JS Hydrated Description -->
+      </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section id="order-form-section" class="order-form-section">
+      <div class="form-header">
+        <h2 class="form-title">قم بملء الاستمارة للطلب</h2>
+        <p class="form-subtitle">يرجى إدخال معلومات صحيحة وسنتصل بك لتأكيد الطلب</p>
+      </div>
+
+      <div class="urgency-badge">
+        <i class="fas fa-exclamation-triangle"></i>
+        <span>عاجل: بقيت 5 قطع فقط في المخزون! الطلب كبير حالياً.</span>
+      </div>
+
+      <form id="order-form" novalidate>
+        <!-- Name Input -->
+        <div class="form-group">
+          <label for="full-name">الاسم واللقب كاملاً:</label>
+          <div class="input-with-icon">
+            <span class="input-icon"><i class="fas fa-user"></i></span>
+            <input type="text" id="full-name" class="form-control" placeholder="مثال: محمد بن علي" required>
+          </div>
+        </div>
+
+        <!-- Phone Input -->
+        <div class="form-group">
+          <label for="phone-number">رقم الهاتف (الجزائر):</label>
+          <div class="input-with-icon">
+            <span class="input-icon"><i class="fas fa-phone-alt"></i></span>
+            <input type="tel" id="phone-number" class="form-control" placeholder="مثال: 0550123456" required>
+          </div>
+        </div>
+
+        <!-- Wilaya Select -->
+        <div class="form-group">
+          <label for="select-wilaya">الولاية:</label>
+          <div class="input-with-icon">
+            <span class="input-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <select id="select-wilaya" class="form-control form-control-select" required>
+              <!-- JS Hydrated Wilayas -->
+            </select>
+          </div>
+        </div>
+
+        <!-- Commune Select -->
+        <div class="form-group">
+          <label for="select-commune">البلدية:</label>
+          <div class="input-with-icon">
+            <span class="input-icon"><i class="fas fa-map"></i></span>
+            <select id="select-commune" class="form-control form-control-select" required>
+              <!-- JS Hydrated Communes -->
+            </select>
+          </div>
+        </div>
+
+        <!-- Delivery Type -->
+        <div class="form-group">
+          <label>نوع التوصيل:</label>
+          <div class="delivery-options-grid">
+            <div class="delivery-card active" data-delivery="home">
+              <span class="delivery-card-icon"><i class="fas fa-home"></i></span>
+              <span class="delivery-card-title">إلى المنزل</span>
+              <span class="delivery-card-desc">الدفع عند باب بيتك</span>
+            </div>
+            <div class="delivery-card" data-delivery="office">
+              <span class="delivery-card-icon"><i class="fas fa-building"></i></span>
+              <span class="delivery-card-title">إلى المكتب</span>
+              <span class="delivery-card-desc">الاستلام من مكتب الشحن</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quantity Selector -->
+        <div class="form-group">
+          <label>الكمية المطلوبة:</label>
+          <div class="quantity-selector">
+            <button type="button" id="qty-minus" class="qty-btn">-</button>
+            <input type="text" id="qty-val" class="qty-val" value="1" readonly>
+            <button type="button" id="qty-plus" class="qty-btn">+</button>
+          </div>
+        </div>
+
+        <!-- Notes Input -->
+        <div class="form-group">
+          <label for="order-notes">ملاحظات إضافية (اختياري):</label>
+          <textarea id="order-notes" class="form-control" placeholder="مثل: توقيت الاتصال المفضل أو مواصفات خاصة..." rows="3" style="padding-right: 15px; resize: vertical;"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="submit-btn">
+          <span class="whatsapp-icon-btn"><i class="fab fa-whatsapp"></i></span>
+          تأكيد الطلب عبر الواتساب
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-logo">سوق برو - الجزائر</div>
+      <div class="footer-trust-grid">
+        <div class="footer-trust-item"><i class="fas fa-check-circle"></i> دفع عند الاستلام</div>
+        <div class="footer-trust-item"><i class="fas fa-truck"></i> توصيل سريع</div>
+        <div class="footer-trust-item"><i class="fas fa-undo"></i> ضمان رضا</div>
+      </div>
+      <p>© 2026 جميع الحقوق محفوظة لمتجر سوق برو.</p>
+    </footer>
+
+    <!-- Mobile Sticky CTA Footer Button -->
+    <div id="sticky-cta" class="sticky-footer-cta">
+      <button id="sticky-cta-btn" class="sticky-cta-btn">
+        <i class="fas fa-shopping-cart"></i>
+        اطلب الآن (الدفع عند الاستلام)
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Dynamic Scripts Load -->
+  <script src="../assets/js/wilayas.js"></script>
+  <script src="../assets/js/main.js" defer></script>
+</body>
+</html>
